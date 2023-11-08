@@ -1,0 +1,24 @@
+/*Enlace nunca visitado*/
+a:link{
+    color:black;
+}
+
+/*Enlace ya visitado*/
+a:visited{
+    color:blue;
+}
+
+/*Enlace cuando pasas por encima*/
+a:hover{
+    color:green;
+}
+
+/*Enlace siendo pulsado*/
+a:active{
+    color:orange;
+}
+
+/*Fondo del enlace cuando éste es el foco*/
+a:focus{
+    background-color: lawngreen;
+}

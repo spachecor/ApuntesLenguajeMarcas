@@ -1,0 +1,70 @@
+body{
+    background-color: #FFDEFB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: #a44ba0;
+}
+fieldset{
+    border-color: #D763D2;
+    border-radius: 10px;
+    color: #a44ba0;
+}
+input{
+    border-radius: 10px;
+    border-color: #D763D2;
+}
+button{
+    border-radius: 10px;
+    border-color: #D763D2;
+    background-color: #FFFADE;
+}
+button:hover{
+    background-color: #FFF7D0;
+}
+button:active{
+    background-color: #FFC9CE;
+}
+.borrar{
+    display: block;
+    position: absolute;
+    margin-left: 525px;
+    /*margin-top: 20px;*/
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.cajaSub{
+    width: 600px;
+    height: auto;
+}
+.cajaEncajada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cajita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: #d763d184 1px dotted;
+    width: 80%;
+    height: auto;
+}
+.archivos{
+    border-radius: 0 !important;
+}
+.pie{
+    width: 100%;
+    height: 100px;
+}
+.rojo{
+    color: red;
+}

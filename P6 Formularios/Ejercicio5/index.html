@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contacta con nosotros</h1>
+    </header>
+    <main>
+        <div class="caja">
+            <div class="cajaSub">
+                <form action="index.html">
+                    <button class="borrar" type="reset" value="borrar">Limpiar</button>
+                    <fieldset>
+                        <legend>Formulario de contacto</legend>
+                        <div class="cajaEncajada">
+                            <div class="cajita">
+                                <label for="nombre">Nombre: <span class="rojo">*</span></label>
+                                <input type="text" name="nombre" id="nombre" minlength="2" maxlength="30" placeholder="María" required>
+                            </div>
+                            <div class="cajita">
+                                <label for="apellidos">Apellidos: <span class="rojo">*</span></label>
+                                <input type="text" name="apellidos" id="apellidos" minlength="2" maxlength="60" placeholder="Guzman Pérez" required>
+                            </div>
+                            <div class="cajita">
+                                <label for="correo">Email: <span class="rojo">*</span></label>
+                                <input type="email" name="correo" id="correo" minlength="5" placeholder="example@example.com" required>
+                            </div>
+                            <div class="cajita">
+                                <label for="nacimiento">Fecha de nacimiento: <span class="rojo">*</span></label>
+                                <input type="date" name="nacimiento" id="nacimiento" required>
+                            </div>
+                            <div class="cajita">
+                                <label for="sexo">Sexo:<br>
+                                    <input type="radio" class="radio" name="sexo" id="sexo" value="m">Hombre<br>
+                                    <input type="radio" class="radio" name="sexo" id="sexo" value="f" checked>Mujer
+                                </label>
+                            </div>
+                            <div class="cajita">
+                                <label for="motivos">Motivo de contacto <span class="rojo">*</span></label>
+                                <textarea name="motivos" id="motivos" cols="30" rows="3" 
+                                    placeholder="Estoy preocupada por..." minlength="10" required></textarea>
+                            </div>
+                            <div class="cajita">
+                                <label for="archivos">Archivos que respaldan tu consulta:<br><br>
+                                    <input class="archivos" type="file" name="archivos" id="archivos">
+                                </label>
+                            </div>
+                            <div class="cajita">
+                                <p><span class="rojo">*</span> Campos obligatorios</p>
+                                <button type="submit" value="enviar">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="pie"></div>
+    </footer>
+</body>
+</html>

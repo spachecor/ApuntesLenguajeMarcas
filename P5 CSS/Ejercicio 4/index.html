@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="contHeader">
+            <div class="img">
+                <img src="img/1519902715831.jpeg" alt="Logotipo empresarial">
+            </div>
+            <div class="direccion">
+                <span>Industrias StartFuerte <br> CIF. 12345678_G <br> C/Forjadores s/n <br> Isla del Hierro <br> Tenerife <br> España</span>
+            </div>
+            <div class="formulario">
+                <h1>FACTURA</h1>
+                <br>
+                <form action="index.html">
+                    <label for="num">Número: <input type="number" name="num" id="num"></label><br>
+                    <label for="fecha">Fecha: <input type="date" name="fecha" id="fecha"></label>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Datos cliente-->
+        <section>
+            <div class="cliente">
+                <h2>Datos del Cliente</h2>
+                <form action="index.html">
+                    <label for="cliente">Cliente: <input type="text" name="cliente" id="cliente" value="Tío Sam"></label>
+                    <label for="cif">CIF: <input type="text" name="cif" id="cif" value="94-666666"></label><br><br>
+                    <label for="direccion">Dirección: <input type="text" name="direccion" id="direccion" value="Pennsylvania Avenue, 1600"></label>
+                    <label for="provincia">Provincia: <input type="text" name="provincia" id="provincia" value="Washington"></label><br><br>
+                    <label for="pais">País: <input type="text" name="pais" id="pais" value="Estados Unidos"></label>
+                </form>
+            </div>
+        </section>
+        <!--Lineas de factura-->
+        <section>
+            <div class="cliente">
+                <h2>Líneas de factura</h2>
+                <p><b>Cantidad&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Artículo&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Precio&nbsp;&nbsp;&nbsp;Subtotal</b><br>
+                    1&emsp;&emsp;&emsp;&emsp;AR001-Armadura de oro reluciente 350.000$ 350.000$ <br>
+                    3&emsp;&emsp;&emsp;&emsp;ES002-Escudo antiproyectiles&emsp;&emsp;&nbsp;&nbsp;50.000$&nbsp;&nbsp;&nbsp;150.000$
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

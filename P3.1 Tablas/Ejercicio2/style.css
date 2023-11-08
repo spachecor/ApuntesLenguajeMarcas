@@ -1,0 +1,47 @@
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+.bordeSimple{
+    border: black 1px solid;
+}
+.bordeGDrcho{
+    border-right: black 3px solid;
+}
+.bordeGIzqdo{
+    border-left: black 3px solid;
+}
+.bordeGTop{
+    border-top: black 3px solid;
+}
+.bordeGBottom{
+    border-bottom: black 3px solid !important;
+}
+.bordeSimpleEspecial{
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+.bordeMBottom{
+    border-bottom: black 2px solid;
+}
+.bordeMTop{
+    border-top: black 2px solid;
+}
+.bordeMIzqdo{
+    border-left: black 2px solid;
+}
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: greenyellow;
+}
+.naranja{
+    background-color: orange;
+}
+.rosa{
+    background-color: lightpink;
+}
+.gris{
+    background-color: lightgray;
+}

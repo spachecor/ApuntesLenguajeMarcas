@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><b>ENCUESTA TELEVISIVA 2011-2012</b></h1><hr>
+    </header>
+    <main>
+        <form action="index.html">
+
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre" id="nombre" maxlength="30"><br>
+
+            <label for="apellidos">APELLIDOS</label>
+            <input type="text" name="apellidos" id="apellidos" maxlength="60"><br>
+
+            <label for="sexo">SEXO</label><br>
+            <input type="radio" name="sexo" id="sexo" value="m" checked>Hombre<br>
+            <input type="radio" name="sexo" id="sexo" value="f">Mujer<br><hr>
+
+            <label for="usuario">Nombre de usuario para acceso a resultados</label>
+            <input type="text" name="usuario" id="usuario"><br>
+
+            <label for="contra">Contraseña (8caracteres)</label>
+            <input type="password" name="contra" id="contra" maxlength="8"><hr>
+
+            <ol>
+                <li>Series de televisión favoritas<br>
+                    <input type="checkbox" name="serie" id="serie" value="aguila">Águila Roja<br>
+                    <input type="checkbox" name="serie" id="serie" value="house" checked>House<br>
+                    <input type="checkbox" name="serie" id="serie" value="mentalista">El Mentalista<br>                  
+                </li>
+                <li>Concursos preferidos<br>
+                    <input type="checkbox" name="concurso" id="concurso" value="millon">Un millón para el mejor<br>
+                    <input type="checkbox" name="concurso" id="concurso" value="saberyganar" checked>Saber y ganar<br>
+                    <input type="checkbox" name="concurso" id="concurso" value="pasapalabra">Pasapalabra<br>
+                </li>
+                <li>¿Ves mucho la televisión?<br>
+                    <input type="radio" name="tele" id="tele" value="si">Sí<br>
+                    <input type="radio" name="tele" id="tele" value="no">No<br>
+                </li>
+            </ol>
+
+            <label for="img">ADJUNTA ALGUNA IMAGEN QUE QUIERAS AÑADIR A LA ENCUESTA</label><br>
+            <input type="file" name="img" id="img" accept=".jpg, .jpeg, .png"><hr>
+
+            <div class="centrado">
+                <div class="uno">
+                    <button type="submit" name="guardar">Guardar cambios</button>&nbsp;
+                    <button type="submit" name="enviar">Enviar</button><br>
+                </div>
+                <div class="dos">
+                    <button type="reset" name="borrar">Borrar datos del formulario</button>
+                </div>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

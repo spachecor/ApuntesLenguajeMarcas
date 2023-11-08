@@ -1,0 +1,24 @@
+table {
+    border-top:black 3px solid;
+    border-right:black 3px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    border:black 1px solid;
+}
+.bordeInf{
+    border-bottom: black 3px solid;
+}
+.bordeDcha{
+    border-right: black 3px solid;
+}
+.bordeIzq{
+    border-left: black 3px solid;
+}
+.fondoGris{
+    background-color: gray;
+}
+.fondoAmarillo{
+    background-color: yellow;
+}

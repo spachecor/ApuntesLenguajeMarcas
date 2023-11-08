@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+}
+.contHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img{
+    margin-right: 50px;
+}
+.direccion{
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 50px;
+}
+.cliente{
+    border: black 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}

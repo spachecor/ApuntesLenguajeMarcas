@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form action="index.html">
+            <!--Datos personales-->
+            <section>
+                <div class="titulo">
+                    <span>Datos Personales</span>
+                </div>
+                <span>Proporcionar la siguiente información de contacto:</span><br><br>
+                <span class="info">*Campos Obligatorios</span>
+
+                <!--1º tanda formulario-->
+                <div class="contenedor1">
+                    <div class="contenedor2">
+                        <div class="contenedor4">
+                            <label class="apartado" for="nombre">Nombre</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label class="apartado" for="email">Email</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label class="apartado" for="pais">País</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label class="apartado" for="cuidad">Cuidad/Población</label>
+                        </div>
+                    </div>
+                    <div class="contenedor3">
+                        <div class="contenedor4">
+                            <input class="apartado text" type="text" name="nombre" id="nombre" required>
+                        </div>
+                        <div class="contenedor4">
+                            <input class="apartado text" type="email" name="email" id="email" required>
+                        </div>
+                        <div class="contenedor4">
+                            <select class="apartado  text" name="pais" id="pais" required>
+                                <option value="nothing">***Escoja País***</option>
+                                <option value="esp">España</option>
+                                <option value="eeuu">Estados Unidos</option>
+                            </select>
+                        </div>
+                        <div class="contenedor4">
+                            <select class="apartado text" name="ciudad" id="ciudad" required>
+                                <option value="nothing"> </option>
+                                <option value="madrid">Madrid</option>
+                                <option value="ny">New York</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contenedor2">
+                        <div class="contenedor4">
+                            <label class="apartado" for="apellidos">Apellidos</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label class="apartado" for="sex">Sexo</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label class="apartado" for="provincia">Provincia/Estado</label>
+                        </div>
+                        <div class="contenedor4"></div>
+                    </div>
+                    <div class="contenedor3">
+                        <div class="contenedor4">
+                            <input class="apartado text" type="text" name="apellidos" id="apellidos" required>
+                        </div>
+                        <div class="contenedor4">
+                            <select class="apartado text" name="sex" id="sex">
+                                <option value="nothing">Seleccione</option>
+                                <option value="m">Masculino</option>
+                                <option value="f">Femenino</option>
+                            </select>
+                        </div>
+                        <div class="contenedor4">
+                            <select class="apartado text" name="provincia" id="provincia">
+                                <option value="nothing"> </option>
+                                <option value="madrid">Madrid</option>
+                                <option value="ny">New York</option>
+                            </select>
+                        </div>
+                        <div class="contenedor4"></div>
+                    </div>
+                </div>
+
+                <!--2º tanda formulario-->
+                <p class="info">(i) en caso de no existir en esta lista la cuidad, colóquelo en el campo de "Dirección"
+                </p>
+
+                <div class="contenedor1">
+                    <div class="contenedor2">
+                        <div class="contenedor4">
+                            <label for="direccion">Dirección o<br>Dirección Postal</label>
+                        </div>
+                        <div class="contenedor4"></div>
+                        <div class="contenedor4">
+                            <label for="tlf">Teléfono</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label for="estudios">Estudios</label>
+                        </div>
+                    </div>
+                    <div class="contenedor3">
+                        <div class="contenedor4">
+                            <textarea class="text" name="direccion" id="direccion" cols="22" rows="2"
+                                required></textarea>
+                        </div>
+                        <div class="contenedor4"></div>
+                        <div class="contenedor4">
+                            <input class="text" type="number" name="tlf" id="tlf" required>
+                        </div>
+                        <div class="contenedor4">
+                            <input class="text" type="text" name="estudios" id="estudios" required>
+                        </div>
+                    </div>
+                    <div class="contenedor2">
+                        <div class="contenedor4">
+                            <label for="cp">Código o<br>Apartado Postal</label>
+                        </div>
+                        <div class="contenedor4"></div>
+                        <div class="contenedor4"></div>
+                        <div class="contenedor4"></div>
+                    </div>
+                    <div class="contenedor3">
+                        <div class="contenedor4">
+                            <input class="text" type="number" name="cp" id="cp">
+                        </div>
+                        <div class="contenedor4"></div>
+                        <div class="contenedor4"></div>
+                        <div class="contenedor4"></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--Datos de programa-->
+            <section>
+                <div class="titulo">
+                    <span>Datos de Programa</span>
+                </div>
+                <input class="text" name="masInfo" id="masInfo" type="checkbox" checked>
+                <label class="solicitud" for="masInfo">Solicitar Información en Programas de
+                    Formación(Master/Curso)</label>
+
+                <div class="contenedor1">
+                    <div class="contenedor2">
+                        <div class="contenedor4">
+                            <label for="area">Área</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label for="progEstudio">Programa de<br>Estudio</label>
+                        </div>
+                        <div class="contenedor4">
+                            <label for="conocer">¿Dónde conoció<br>nuestro curso?</label>
+                        </div>
+                    </div>
+
+                    <div class="contenedor5">
+                        <div class="contenedor4">
+                            <select class="text" name="area" id="area">
+                                <option value="nothing">***Escoja un área***</option>
+                                <option value="0"></option>
+                                <option value="1"></option>
+                            </select>
+                        </div>
+                        <div class="contenedor4">
+                            <select class="text" name="progEstudio" id="progEstudio">
+                                <option value="nothing"> </option>
+                                <option value="0">Tipo1</option>
+                                <option value="1">Tipo2</option>
+                            </select>
+                        </div>
+                        <div class="contenedor4">
+                            <input class="type" type="text" name="conocer" id="conocer">
+                        </div>
+                    </div>
+                </div>
+                <input class="text" name="masInfo" id="masInfo" type="checkbox">
+                <label class="solicitud" for="masInfo">Solicitar Información en Programas de Formación(Master/Curso)</label>
+
+            </section>
+
+            <!--Información adicional-->
+            <section>
+                <div class="titulo">
+                    <span>Información Adicional</span>
+                </div>
+
+                <div class="contenedor1">
+                    <div class="contenedor2">
+                        <label for="comentarios">Comentarios</label>
+                    </div>
+                    <div class="contenedor3">
+                        <textarea name="comentarios" id="comentarios" cols="15" rows="3"></textarea>
+                    </div>
+                    <div class="contenedor2"></div>
+                    <div class="contenedor3"></div>
+                </div>
+
+            </section>
+
+            <!--botones-->
+            <section>
+                <div class="botones">
+                    <button class="text" type="submit">Enviar</button>
+                    <button class="text" type="reset">Limpiar</button>
+                </div>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>

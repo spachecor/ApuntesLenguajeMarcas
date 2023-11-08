@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <header>
+        <h1><b>Rellena tu CV</b></h1>
+    </header>
+    <main>
+        <form action="index.html">
+
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="apellido" maxlength="30"><br>
+
+            <label for="apellido">Apellido</label><br>
+            <input type="text" name="apellido" id="apellido" maxlength="50"><br>
+
+            <label for="contrasena">Contraseña</label><br>
+            <input type="password" name="contrasena" id="contrasena"><br>
+
+            <label for="dni">DNI</label><br>
+            <input type="text" name="dni" id="dni" maxlength="9"><br>
+
+            <label for="sexo">Sexo</label><br>
+            <input type="radio" name="sexo" id="sexo" value="m" checked>Hombre<br>
+            <input type="radio" name="sexo" id="sexo" value="f">Mujer<br><br>
+        
+            <label for="img">Incluir mi foto</label>
+            <input type="file" name="img" id="img" accept=".jpg, .jpeg, .png"><br><br>
+
+            <input type="checkbox" name="boletin" id="boletin" checked>
+            <label for="boletin">Suscribirme al boletín de novedades</label><br><br>
+
+            <button type="submit" value="enviar">guardar cambios</button>&nbsp
+            <button type="reset" value="borrar">borrar los datos introducidos</button>
+        </form>
+    </main>
+</body>
+</html>

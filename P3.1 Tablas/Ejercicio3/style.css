@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+}
+td{
+    border:black 1px solid;
+}
+.centrado{
+    text-align: center;
+}
+.izq{
+    text-align: end;
+}
+.amarillo{
+    background-color: yellow;
+}
+.anchuraPalabra{
+    width:75px;
+}
+.anchuraNum{
+    width: 20px;
+}

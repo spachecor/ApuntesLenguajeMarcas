@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: auto;
+    font-size: 14px;
+}
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: auto;
+    font-size: 14px;
+}
+.contenedor4{
+    width: auto;
+    height: 30px;
+}
+.contenedor5{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    font-size: 14px;
+}
+.apartado{
+    margin-bottom: 10px;
+}
+.titulo{
+    border-bottom: black 1px dotted;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-size: 20px;
+    color: rgb(180, 0, 0);
+}
+.info{
+    font-size: 14px;
+    color: rgb(66, 131, 172);
+}
+.solicitud{
+    font-size: 14px;
+    color: rgb(28, 95, 147);
+    font-weight: bold;
+}
+.text{
+    border: inset;
+}
+.botones{
+    text-align: center;
+    margin: 20px;
+}

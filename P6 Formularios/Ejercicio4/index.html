@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <header>
+        <h1><b>Formulario</b></h1>
+    </header>
+    <main>
+        <form action="index.html">
+
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre" maxlength="30"><br>
+
+            <label for="apellidos">apellidos</label><br>
+            <input type="text" name="apellidos" id="apellidos" maxlength="60"><br>
+
+            <label for="tlf">Teléfono</label><br>
+            <input type="number" name="tlf" id="tlf"><br>
+
+            <label for="sexo">Sexo</label><br>
+            <input type="radio" name="sexo" id="se" checked>Mujer<br>
+            <input type="radio" name="sexo" id="sexo">Hombre<br>
+
+            <label for="sugerencias">Sugerencias</label>
+            <textarea name="sugerencias" id="sugerencias" cols="17" rows="2" placeholder="Escribe tus sugerencias"></textarea><br><br>
+
+            <input type="checkbox" name="novedades" id="novedades" checked>Deseo recibir novedades<br>
+            
+            <label for="opinion">Opina de nuestra Web</label><br>
+            <select name="opinion" id="opinion">
+                <option value="meGusta">Me gusta mucho</option>
+                <option value="noMeGusta">No me gusta nada</option>
+            </select><br><br>
+
+            <button type="submit">Enviar</button>&nbsp;<button type="submit">Enviar</button>
+
+        </form>
+    </main>
+</body>
+</html>
