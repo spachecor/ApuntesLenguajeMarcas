@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #04A46A;
+    font-weight: bold;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.subContenedor1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55%;
+}
+.subContenedor2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45%;
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    width: 33.333333333333333333333%;
+    height: 100%;
+}
+.caja2{
+    display: flex;
+    justify-content: center;
+    width: 33.333333333333333333333%;
+    height: 100%;
+}
+.caja3{
+    background-image: url(img/css.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 33.333333333333333333333%;
+    border: #1A96B0 2px solid;
+}
+.titu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(233, 249, 255);
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    background-color: #ace6ff;
+    border-top: #1A96B0 2px solid;
+}
+.caja2 > .img1{
+    padding-top: 50px;
+    width: 90%;
+    height: 50%;
+}
+.caja2 > .img2{
+    padding-top: 50px;
+    width: 15%;
+    height: 23%;
+}
+.caja2 > .img3{
+    padding-top: 50px;
+    width: 15%;
+    height: 30%;
+}

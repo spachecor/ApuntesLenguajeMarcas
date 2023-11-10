@@ -1,0 +1,203 @@
+/********************************************************************************************************************************/
+/*ESTILOS GENERALES*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #192666;
+}
+body{
+    background: url(img/fondo.gif) #F2F5FE;
+    background-repeat: repeat-x;
+}
+main{
+    width: 770px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+h1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-size: small;
+}
+p{
+    font-size: smaller;
+}
+a{
+    font-size: smaller;
+}
+/********************************************************************************************************************************/
+/*CABECERA*/
+.cabecera{
+    height: 100px;
+    background-image: url(img/cabecera.jpg);
+    background-position: top;
+    background-size: contain;
+    border-radius: 25px 25px 0 0;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.titulo > h2 > a:link{
+    color: white;
+}
+.titulo > h2 > a:visited{
+    color: white;
+}
+.titulo > h2 > a:hover{
+    color:grey;
+}
+.buscar{
+    margin: auto 0;
+}
+.menu{
+    background-color: #192666;
+    margin: 0 5px;
+    padding: 10px 0 0 0;
+    display: inline-block;
+    width: calc(100% - 10px);
+    height: 33px !important;
+}
+.menu > ul > li{
+    float:left;
+    margin-left: 10px;
+}
+.menu > ul > li > a{
+    display: block;
+    background-color: #253575;
+    color: #b5c4e3;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px 10px;
+}
+.menu > ul > li > a:hover{
+    color: #31479B;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+/********************************************************************************************************************************/
+/*CONTENIDO*/
+.contenedorChico{
+    display: flex;
+    flex-direction: row;
+    width: 730px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+/********************************************************************************************************************************/
+/*CONTENIDO PPAL*/
+.contenido{
+    background-color: white;
+    height: 925px;
+    margin: 0 5px;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/fondo_articulo.jpg);
+    background-repeat: no-repeat;
+}
+.articulo > .contTitle > h2{
+    background-color: #D3e5FD;
+    padding: 10px 10px;
+    margin-bottom: 0;
+    font-size: large;
+}
+.articulo > .contTitle > h2 > a:link a:visited{
+    color: #192666;
+}
+.articulo > .contTitle > h2 > a:hover{
+    color: #4F6AD7;
+}
+.contTitle{
+    width: 530px;
+}
+.contInfo{
+    width: 510px;
+    margin-left: 10px;
+    height: 50px;
+    border-bottom:#DEE5DF 1px solid;
+}
+.articulo > .contInfo > p > a{
+    color: #4F6AD7;
+}
+.contContenido{
+    margin-left: 10px;
+    width: 510px;
+}
+.contContenido > a{
+    color: blue;
+    font-size:smaller;
+}
+/********************************************************************************************************************************/
+/*CONTENIDO SECUNDARIO*/
+.colSecundaria{
+    width: 200px;
+    background-image: url(img/fondo_columna.gif);
+    background-repeat: no-repeat;
+}
+.sobreMi{
+    background-color: #CEDBF9;
+    padding-bottom: 20px;
+}
+.sobreMi > h3{
+    background-color: #A0B9F3;
+    color: 192666;
+    padding: 10px 0 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.contenedorSobreMi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.miFoto{
+    width: 40%;
+}
+.texto{
+    width: 60%;
+}
+.categorias{
+    background-color: #CEDBF9;
+    padding-bottom: 20px;
+}
+.categorias > h3{
+    background-color: #A0B9F3;
+    color: 192666;
+    padding: 10px 0 10px 10px;
+    margin: 0;
+}
+.cat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding:15px 0;
+}
+.subCategoria{
+    border-bottom:white 1px solid;
+    padding:5px 0px 5px 0px;
+    width: 160px;
+}
+.subCategoria > a{
+    color:blue;
+}
+/********************************************************************************************************************************/
+/*PIE DE PÁGINA*/
+footer{
+    background-image: url(img/fondo_pie.jpg);
+    width: 775px;
+    height: 60px;
+    margin: 20px auto 0 auto;
+}
+footer > p{
+    color: rgba(128, 128, 128, 0.5);
+    padding-left: 50px;
+}
