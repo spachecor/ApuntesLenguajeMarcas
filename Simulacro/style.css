@@ -1,0 +1,163 @@
+/*ESTILOS GENERALES*/
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(gatos/fondo.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
+/*CABECERA*/
+header{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-color: rgb(246, 211, 217);
+    margin-top: 20px;
+    border-radius: 50px 50px 0 0;
+    border-top: black 3px groove;
+    border-bottom: rgba(0, 0, 0, 0.25) 3px groove;
+}
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gato{
+    position: absolute;
+    margin-left: 650px;
+}
+/*MENU DESPLEGABLE*/
+nav > ul{
+    list-style: none;
+}
+nav > ul > li > ul{
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+nav > ul > .guias:hover > ul{
+    display:block;
+}
+nav > ul > li{
+    float: left;
+    margin: 0 10px;
+}
+nav > ul > li > ul{
+    padding: 0;
+}
+.guias{
+    width: 304px;
+}
+.menu a{
+    font-weight: bold;
+    color: white;
+}
+nav{
+    background-color: #53424C;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.menu li{
+    background-color: #9E6588;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+}
+/*CUERPO*/
+main{
+    display: flex;
+    background-color: rgb(246, 211, 217);
+    height: auto;
+    width: 800px;
+}
+section h3{
+    padding: 0 15px;
+}
+.noTocarlo{
+    display: flex;
+    flex-direction: column;
+}
+.introduccion{
+    padding: 0 30px;
+    border-bottom: rgba(0, 0, 0, 0.25) 3px groove;
+}
+.introduccion > p{
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.textimg1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: rgba(0, 0, 0, 0.25) 3px groove;
+}
+.textimg1 > p{
+    width: 70%;
+    text-align: justify;
+    padding: 5px 30px;
+}
+.textimg1 > .img1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.textimg2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-bottom: rgba(0, 0, 0, 0.25) 3px groove;
+}
+.textimg2 > p{
+    width: 70%;
+    text-align: justify;
+    padding: 5px 30px;
+}
+.textimg2 > .img1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.entrada{
+    text-align: center;
+    border-bottom: rgba(0, 0, 0, 0.25) 3px groove;
+}
+.img2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img2 > img{
+    width: 90%;
+    margin: 20px 0;    
+}
+/*PIE DE PÁGINA*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(246, 211, 217);
+    height: auto;
+    width: 800px;
+    border-bottom: black 3px groove;
+    border-radius: 0 0 50px 50px;
+}
+footer > p{
+    color: rgb(0, 0, 0, 0.7);
+    margin: 10px 30px;
+}
+.miniContacto{
+    text-align: right;
+}
